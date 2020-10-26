@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "ProximaNova-Bold", sans-serif;
+  src: url("../fonts/ProximaNova-Bold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaNova-Extrabld", sans-serif;
+  src: url("../fonts/ProximaNova-Extrabld.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Extrabld.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular", sans-serif;
+  src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold", sans-serif;
+  src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"),
+    url("../fonts/ProximaNova-Semibold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaNovaCond-Light", sans-serif;
+  src: url("../fonts/ProximaNovaCond-Light.woff2") format("woff2"),
+    url("../fonts/ProximaNovaCond-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ProximaNovaCond-Semibold", sans-serif;
+  src: url("../fonts/ProximaNovaCond-Semibold.woff2") format("woff2"),
+    url("../fonts/ProximaNovaCond-Semibold.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PTSerif-Italic", serif;
+  src: url("../fonts/PTSerif-Italic.woff2") format("woff2"),
+    url("../fonts/PTSerif-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}

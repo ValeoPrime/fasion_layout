@@ -1,0 +1,127 @@
+.header__top__inner
+    display: flex
+    justify-content: space-between
+    align-items: center
+    color: #1f1f1f
+    font-family: "ProximaNovaCond-Semibold", sans-serif
+    font-size: 14px
+    font-weight: 600
+    font-style: normal
+    letter-spacing: normal
+    line-height: 18px
+    padding: 10px 0
+
+    .social__list
+        display: flex
+        &_item
+            width: 32px
+            height: 32px
+            border: 1px solid #c2c2c2
+            display: flex
+            align-items: center
+            justify-content: center
+            &:first-child
+                border-radius: 2px 0 0 2px
+            &:last-child
+                border-radius: 0 2px 2px 0
+    .header__adress_select-item
+        position: relative
+        text-decoration: underline
+        &:before
+            content: ''
+            width: 11px
+            height: 16px
+            position: absolute
+            left: -25px
+            top: 0
+            background-image: url('../img/icons/geo.png')
+        &:after
+            content: ''
+            width: 10px
+            height: 6px
+            position: absolute
+            right: -25px
+            top: 6px
+            background-image: url('../img/icons/arrow-down.png')
+    .header__phone__wrapper
+        position: relative
+        &:before
+            content: ''
+            width: 11px
+            height: 16px
+            position: absolute
+            left: -15px
+            top: 1px
+            background-image: url('../img/icons/phone.png')
+    .header__phone__wrapper .header__phone_link
+        font-size: 17px
+    .header__user__wrapper
+        min-width: 230px
+        padding: 0 25px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        font-size: 15px
+        position: relative
+        .header__user__goods-counter
+            position: absolute
+            right: -23px
+            top: 2px
+            color: #b98348
+            padding-left: 5px
+            border-left: 1px solid  #b98348
+            font-family: "PTSerif-Italic", serif
+            font-size: 14px
+            font-style: italic
+            letter-spacing: normal
+            line-height: 18px
+
+        .header__user_entry
+            position: relative
+            &:before
+                content: ''
+                width: 11px
+                height: 16px
+                position: absolute
+                left: -20px
+                top: 1px
+                background-image: url('../img/icons/user.png')
+        .header__user_card
+            position: relative
+            &:before
+                content: ''
+                width: 11px
+                height: 16px
+                position: absolute
+                left: -20px
+                top: 1px
+                background-image: url('../img/icons/card.png')
+                z-index: 10
+
+.header__nav
+    background-color: #1f1f1f
+    color: #ffffff
+    .header__nav_inner
+        font-family: "ProximaNovaCond-Semibold", sans-serif
+        font-size: 15px
+        font-weight: 500
+        font-style: normal
+        letter-spacing: normal
+        line-height: 18px
+        text-transform: uppercase
+    .header__nav__logo
+        margin-right: 94px
+    .header__nav_inner
+        padding: 10px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .header__navigation
+            flex-basis: 100%
+        .header__navigation_list
+            display: flex
+            justify-content: space-between
+            align-items: center
+
+        .header__navigation_list-item + .header__navigation_list-item
+            margin-left: 50px

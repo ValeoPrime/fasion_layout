@@ -53,9 +53,36 @@
 }
 
 @font-face {
+  font-family: "Georgia", sans-serif;
+  src: url("../fonts/Georgia.woff2") format("woff2"),
+    url("../fonts/Georgia.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "PTSerif-Italic", serif;
   src: url("../fonts/PTSerif-Italic.woff2") format("woff2"),
     url("../fonts/PTSerif-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Georgia-Italic", serif;
+  src: url("../fonts/Georgia-Italic.woff2") format("woff2"),
+    url("../fonts/Georgia-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Georgia-BoldItalic", serif;
+  src: url("../fonts/Georgia-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Georgia-BoldItalic.woff") format("woff");
   font-weight: 400;
   font-style: italic;
   font-display: swap;
